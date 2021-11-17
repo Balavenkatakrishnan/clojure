@@ -1,0 +1,23 @@
+(ns hello-repl)
+
+"hello clojure"
+
+(println "Hello World")
+(print "hello" "world")
+
+(+ 3 5)
+(defn hello
+  []
+  "welcome to clojure"
+  
+  ))
+(hello)
+(defn a-plus-b-wholesquare
+  [a,b]
+  (+(* a a) (* b b) (* 2 (* a b)))
+  )
+
+(a-plus-b-wholesquare 2 2)
+
+
+
