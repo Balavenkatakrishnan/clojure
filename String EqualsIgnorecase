@@ -1,0 +1,11 @@
+(defn lowerCase 
+  [value]
+ (clojure.string/lower-case value)
+  
+  )
+
+(defn Stringignorecase
+ [a b]
+  (= (lowerCase a) (lowerCase b))
+  )
+(Stringignorecase "hello" "HELLO")
