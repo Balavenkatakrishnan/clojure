@@ -4,8 +4,8 @@
   
   )
 
-(defn Stringignorecase
+(defn String-equals-ignorecase
  [a b]
   (= (lowerCase a) (lowerCase b))
   )
-(Stringignorecase "hello" "HELLO")
+(String-equals-ignorecase "hello" "HELLO")
