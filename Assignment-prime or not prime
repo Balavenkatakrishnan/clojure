@@ -1,0 +1,17 @@
+(defn primeornotprime
+  [value i]
+  (if (< value 2)
+    (println "Not prime number")
+    (if (< i value)
+      (if (= (mod value i) 0)
+        (println "Not prime number")
+        (primeornotprime value (inc i))
+        )
+      (println "prime number")
+      )
+    )
+  (int value)
+)
+(primeornotprime 9 2)
+
+## here i have given 9(value) for checking the number  isprime  and 2(i) is for incrementing i
