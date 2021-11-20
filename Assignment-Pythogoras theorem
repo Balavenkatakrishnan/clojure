@@ -9,7 +9,7 @@
     )
   )
 (defn squarerootof [value]
-  (int (Math/sqrt value)) 
+  (int (Math/sqrt value))
 
   )
 (defn additionoftwosquarevalues
@@ -26,4 +26,5 @@
 (squarerootof 145)
 (evenornot 12.041594578792296)
 
-(pythogoraso-theorem 8 8)
+(pythogoras-theorem 8 8)
+
