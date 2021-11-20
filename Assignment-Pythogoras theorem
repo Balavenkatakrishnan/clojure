@@ -1,0 +1,29 @@
+(defn squareof [value]
+  (* value value)
+  )
+(defn evenornot
+  [value]
+  (if (= (mod value 2) 0)
+  (println "Even number")
+  (println "Odd number")
+    )
+  )
+(defn squarerootof [value]
+  (int (Math/sqrt value)) 
+
+  )
+(defn additionoftwosquarevalues
+  [value1 value2]
+  (+ (squareof value1) (squareof value2))
+  )
+
+(defn pythogoras-theorem
+  [a b]
+
+  (evenornot (squarerootof (additionoftwosquarevalues a b)))
+  )
+(additionoftwosquarevalues 8 9)
+(squarerootof 145)
+(evenornot 12.041594578792296)
+
+(pythogoraso-theorem 8 8)
