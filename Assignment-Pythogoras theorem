@@ -21,8 +21,8 @@
   [a b]
 
   (evenornot (squarerootof (additionoftwosquarevalues a b)))
+  (squarerootof (additionoftwosquarevalues a b))
   )
 
 
 (pythogoras-theorem 8 8)
-
