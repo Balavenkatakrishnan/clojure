@@ -22,9 +22,7 @@
 
   (evenornot (squarerootof (additionoftwosquarevalues a b)))
   )
-(additionoftwosquarevalues 8 9)
-(squarerootof 145)
-(evenornot 12.041594578792296)
+
 
 (pythogoras-theorem 8 8)
 
