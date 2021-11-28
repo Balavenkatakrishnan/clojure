@@ -1,0 +1,13 @@
+(defn primeornotprime
+  ([value] (primeornotprime value 2))
+  ([value i]
+   (if (< value 2)
+     (println "Not prime number")
+     (loop [index i]
+       (if (< index value)
+         (if (= (mod value index) 0)
+           (println "Not prime number")
+           (recur (inc index)))
+         (println "prime number"))))
+   (int value)))
+
